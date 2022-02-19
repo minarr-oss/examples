@@ -1,0 +1,15 @@
+{
+  "index": {
+    "title": "Akira",
+    "type": "nav",
+    "hidden": true
+  },
+  "nextra": {
+    "title": "Docs",
+    "type": "nav"
+  },
+  "blog": {
+    "title": "Blog",
+    "type": "nav"
+  }
+}

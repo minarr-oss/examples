@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
+    "vercel-build": "yarn workspace nextra run build && yarn workspace nextra-theme-docs run build && yarn build"
+  },
+  "dependencies": {
+    "prism-react-renderer": "^1.1.1",
+    "prismjs": "^1.22.0",
+    "next": "^12.1.0",
+    "nextra": "^2.0.0-alpha.18",
+    "nextra-theme-docs": "^2.0.0-alpha.18",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
